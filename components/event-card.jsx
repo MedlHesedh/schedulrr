@@ -60,7 +60,7 @@ export default function EventCard({ event, username, isPublic = false }) {
           <span>
             {event.duration} mins | {event.isPrivate ? "Private" : "Public"}
           </span>
-          <span>{event._count.bookings} Bookings</span>
+          <span>{event._count.bookings} Schedule Sessions</span>
         </CardDescription>
       </CardHeader>
       <CardContent>

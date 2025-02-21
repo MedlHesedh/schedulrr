@@ -51,7 +51,7 @@ export default function DashboardPage() {
     <div className="space-y-8">
       <Card>
         <CardHeader>
-          <CardTitle>Welcome, {user?.firstName}!</CardTitle>
+          <CardTitle>Welcome {user?.firstName}</CardTitle>
         </CardHeader>
         <CardContent>
           {!loadingUpdates ? (

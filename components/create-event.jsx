@@ -45,7 +45,7 @@ export default function CreateEventDrawer() {
     <Drawer open={isOpen} onClose={handleClose}>
       <DrawerContent>
         <DrawerHeader>
-          <DrawerTitle>Create New Event</DrawerTitle>
+          <DrawerTitle>Create New Schedule</DrawerTitle>
         </DrawerHeader>
         <EventForm
           onSubmitForm={() => {
