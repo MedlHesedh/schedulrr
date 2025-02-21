@@ -8,9 +8,9 @@ import { useUser } from "@clerk/nextjs";
 
 const navItems = [
   { href: "/dashboard", label: "Dashboard", icon: BarChart },
-  { href: "/events", label: "Events", icon: Calendar },
+  { href: "/events", label: "Schedules", icon: Calendar },
   { href: "/meetings", label: "Meetings", icon: Users },
-  { href: "/availability", label: "Availability", icon: Clock },
+  { href: "/availability", label: "Working Hours", icon: Clock },
 ];
 
 export default function AppLayout({ children }) {
