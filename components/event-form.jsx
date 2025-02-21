@@ -133,7 +133,7 @@ const EventForm = ({ onSubmitForm, initialData = {} }) => {
       {error && <p className="text-red-500 text-xs mt-1">{error.message}</p>}
 
       <Button type="submit" disabled={loading}>
-        {loading ? "Submitting..." : "Create Event"}
+        {loading ? "Submitting..." : "Schedule Now!"}
       </Button>
     </form>
   );
