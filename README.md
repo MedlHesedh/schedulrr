@@ -1,5 +1,3 @@
-# Full Stack Calendly Clone with Next JS, React, Tailwind CSS, Prisma, Neon, Clerk, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/glAC7d-TYSM
 
 
 
