@@ -26,7 +26,7 @@ async function Header() {
         <Link href="/events?create=true">
           <Button variant="default" className="flex items-center gap-2">
             <PenBox size={18} />
-            <span className="hidden sm:inline">Create Event</span>
+            <span className="hidden sm:inline">Schedule Now!</span>
           </Button>
         </Link>
         <SignedOut>
